@@ -1,0 +1,33 @@
+The term 'Inheritance' is derived from the word "Inherit" which
+ means, 
+"to derive any quality, features or characteristics from family".
+ Therefore, "Inheritance is defined as a mechanism where the sub 
+ or child 
+ class inherits the properties and characteristics of the super 
+ class or other derived classes. 
+It also supports additional features of 
+extracting properties from the child class and using 
+it into other derived classes."
+
+multiple inheritance is not use in java
+
+The super keyword refers to superclass (parent) objects. 
+It is used to call superclass methods, and to access 
+the superclass constructor.
+
+In Java, the extends keyword is used to indicate
+ that a new class is derived from the base 
+class using inheritance
+
+
+In Java, the extends keyword is used to indicate that a new 
+class is derived from the base class using
+ inheritance
+ 
+the need of declaring abstract method in class or interface are 
+ Abstract classes are similar to interfaces.
+ You cannot instantiate them, and they may contain a mix of 
+ methods declared with or without an implementation.
+ However, with abstract classes, you can declare fields that 
+ are not static and final, and define public, protected, 
+ and private concrete methods.
