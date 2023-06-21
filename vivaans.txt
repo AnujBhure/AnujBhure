@@ -1,0 +1,46 @@
+-------------------------------------------------------------
+3)
+In HTML, the `action` and `method` attributes are commonly used in `<form>` elements to define how form data should be handled and where it should be sent upon submission. Here's an explanation of each attribute:
+
+1. `action` attribute: The `action` attribute specifies the URL or server-side script that will process the form data when it is submitted. It defines the endpoint to which the form data should be sent for further processing. This can be a relative or absolute URL, or a server-side script file. For example:
+
+```html
+<form action="/submit-form" method="POST">
+  <!-- form fields and controls -->
+  <input type="submit" value="Submit">
+</form>
+```
+
+In the above example, when the form is submitted, the data will be sent to the `/submit-form` URL.
+
+2. `method` attribute: The `method` attribute defines the HTTP request method to be used when submitting the form data. The two most common methods used are `GET` and `POST`:
+
+- `GET` method: This method appends the form data as query parameters to the URL specified in the `action` attribute and sends it as part of the URL. It is commonly used for retrieving data. For example:
+
+  ```html
+  <form action="/search" method="GET">
+    <!-- form fields and controls -->
+    <input type="text" name="query">
+    <input type="submit" value="Search">
+  </form>
+  ```
+
+  When the form is submitted, the data will be sent to `/search?query=<user-input>`.
+
+- `POST` method: This method sends the form data in the body of the HTTP request, separate from the URL. It is commonly used for submitting data that modifies server-side resources. For example:
+
+  ```html
+  <form action="/submit-form" method="POST">
+    <!-- form fields and controls -->
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="Submit">
+  </form>
+  ```
+
+  When the form is submitted, the data will be sent to `/submit-form` with the form fields and their values included in the request body.
+
+It's important to choose the appropriate `method` based on the nature of the form data and the intended server-side processing. `GET` is generally used for safe and idempotent operations, while `POST` is used for operations that modify data or have side effects.
+
+These attributes work together to define how form data is handled and processed, allowing developers to create interactive and dynamic web applications.
+-----------------------------------------------------------------
