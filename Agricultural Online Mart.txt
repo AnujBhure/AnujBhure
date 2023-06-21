@@ -1,0 +1,57 @@
+Business Requiremnt Specification
+Author:Kharanshu Wanare ( Business Analyst)
+Title: Agricultural Online Mart 
+
+1. Introduction:
+   This document outlines the business requirements for the development and operation of an agricultural online mart. The agricultural online mart aims to provide a digital platform that connects farmers, buyers, and other stakeholders in the agricultural industry, facilitating online trade of agricultural products and promoting growth in the sector.
+
+2. Objectives:
+   a. Establish an online marketplace that brings together farmers and buyers, providing a convenient platform for agricultural product transactions.
+   b. Enable farmers to showcase and sell their agricultural products directly to buyers, expanding market reach and eliminating geographical limitations.
+   c. Enhance transparency and trust by ensuring accurate product information, fair pricing, and reliable customer reviews.
+   d. Offer value-added services such as agricultural knowledge resources, logistics support, and customer assistance.
+   e. Foster networking and collaboration among farmers, buyers, and industry experts to encourage innovation and knowledge sharing in the agricultural sector.
+
+3. Functional Requirements:
+   a. User Registration and Profiles:
+      i. Farmers and buyers should be able to create user accounts with relevant details such as contact information, farm location, and product preferences.
+      ii. Users should have the ability to manage and update their profiles, including adding product listings, updating prices, and showcasing their farming practices.
+
+   b. Product Listings and Search:
+      i. Farmers should be able to create detailed product listings, including product descriptions, images, quantities, and pricing.
+      ii. Buyers should have the ability to search for specific agricultural products based on various criteria such as product type, location, and price range.
+      iii. The platform should provide filtering and sorting options to help users find relevant products quickly and easily.
+
+   c. Secure Transactions and Payments:
+      i. Provide secure and reliable payment gateways to facilitate online transactions between buyers and farmers.
+      ii. Support various payment methods, including credit/debit cards, digital wallets, and bank transfers.
+      iii. Ensure data encryption and implement robust security measures to protect user information and financial transactions.
+
+   d. Order Management and Fulfillment:
+      i. Enable farmers to manage orders received, including order tracking, delivery scheduling, and fulfillment status updates.
+      ii. Provide notifications and alerts to both farmers and buyers regarding order status, payment confirmations, and delivery updates.
+
+   e. Ratings and Reviews:
+      i. Allow buyers to rate and review the products and services they receive, providing feedback to farmers and enhancing transparency.
+      ii. Enable farmers to respond to reviews, address concerns, and build their reputation within the online mart.
+
+   f. Knowledge Resources and Support:
+      i. Offer access to agricultural resources, including articles, guides, and videos, to educate farmers and buyers on best practices, trends, and industry insights.
+      ii. Provide customer support channels, such as live chat or email, to assist users with inquiries, technical issues, or product-related questions.
+
+   g. Community and Networking:
+      i. Foster a community environment where farmers can interact, share knowledge, and collaborate with one another.
+      ii. Facilitate communication channels, such as forums or chat features, to encourage networking and partnerships among farmers and buyers.
+
+4. Non-functional Requirements:
+   a. Scalability and Performance:
+      The platform should be scalable to handle a growing number of users and product listings, while delivering high performance with quick response times and minimal downtime.
+
+   b. Usability and User Experience:
+      The user interface should be intuitive, visually appealing, and accessible across different devices, including desktops, smartphones, and tablets.
+    
+   c. Security and Privacy:
+      Implement robust security measures to protect user data, ensure secure transactions, and safeguard sensitive information.
+
+   d. Data Management and Analytics:
+      Capture and analyze relevant data to gain insights into user preferences, market trends
